@@ -9,9 +9,8 @@ table{
 td {
   padding:1%;
 }
-
-table tr:nth-child(even){
-    background:#03FCF8;
+table tr:nth-child(odd){
+    background:#03FCC3;
 }
 .flex-parent{
   display: flex;
@@ -37,7 +36,7 @@ table tr:nth-child(even){
   box-shadow: 2px 2px 2px #bbb;
 }
 h2{
-  background: #ddd;
+  background:#A3A1FC;
   padding: 1%;
   text-align: center;
 }

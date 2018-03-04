@@ -5,5 +5,22 @@
 		"photo": "capture.png",
 		"email": "vanimadhu555@gmail.com",
 		"address":"Vijayawada,AndhraPradesh"
+	},
+
+	"education":[{
+		"course":"B.Tech(Computer Science and Engineering)",
+		"college":"Gudlavalleru Engineering College",
+		"data":["2015-2019","89%","Autonomous"]
+	},
+	{
+		"course":"Intermediate(MPC)",
+		"college":"Sri Chaitanya Junior Collge",
+		"data":["2013-1015","90%"]
+	},
+	{
+		"course":"SSC",
+		"college":"Viswa Bharathi Vidya Nikethan High School",
+		"data":["2013","83%"]
 	}
+]
 }

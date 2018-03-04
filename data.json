@@ -22,5 +22,24 @@
 		"college":"Viswa Bharathi Vidya Nikethan High School",
 		"data":["2013","83%"]
 	}
-]
+],
+  "skills":[{
+		"name":"Languages Known",
+		"info":["C","java","python","javascript","HTML"]
+	},
+	{
+		"name":"Operating System",
+		"info":["Windows","Linux","Ubuntu","fedora"]
+	},
+	{
+		"name":"Libraries",
+		"info":["jQuery","Bootstrap"]
+	},
+	{
+		"name":"Data Bases",
+		"info":["Mysql","pl/sql","mysqLite","Oracle"]
+	}	
+	]
+
+
 }

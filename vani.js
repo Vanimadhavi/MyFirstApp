@@ -14,6 +14,7 @@ getfile("data.json",function(text){
   console.log(data);
   basicinfo(data.basics);
   eduinfo(data.education);
+  skills(data.skills);
 });
 
 var main=document.querySelector('.flex-parent');
@@ -73,11 +74,19 @@ function eduinfo(education){
     ul.classList.add("edu3");
   // append
     h3.appendChild(ul);
-//for(j in education.data){
+
     var li=document.createElement("li");
     li.textContent=education[i].data;
     ul.appendChild(li);
-//  }
 
   }
+}
+function skills(num){
+  var table=document.createElement("table");
+  var row="";
+  for(var k=0; k<num.length ;k++){
+    row+="<tr><td><strong>"+num[k].name+"</strong></td><td>"+num[k].info+"</td><tr>";
+  }
+  table.innerHTML=row;
+  right.appendChild(table);
 }
